@@ -1,0 +1,323 @@
+/* add your CSS here */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+div.box {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("png/PaperTear.png"), url("png/Grunge.png"), url("png/singman.png");
+    background-size: auto, 25%, 30%;
+    background-repeat: no-repeat;
+    background-color: #e3e3e3;
+    background-position-x: 0, 20%, 100%;
+    margin: 0;
+}
+
+.logo-image{
+    padding: 20px 5px 10px 35px;
+    width: 30%;
+}
+
+nav {
+    display: grid;
+    margin: 0;
+    width: 65%;
+    padding: 50px 20px 30px 50px;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    min-width: 30px;
+    text-align: center;
+    padding: 30px;
+    color: #4d4b4b;
+    font-family: 'Monda', sans-serif;
+    font-size: 120%;
+}
+
+ul.topnav li a:hover {
+    color: #8e3fbb;
+    font-size: 120%;
+    font-weight: 900;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arrow img{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.music-show img{
+    display: block;
+    width: 45%;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.black-box-text {
+    box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+    border: #000;
+    color: #fff;
+    background-color: #000;
+    width: fit-content;
+    transform: rotate(-7deg);
+}
+
+.purple-box-text {
+    box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+    border: #8e3fbb;
+    color: #fff;
+    background-color: #8e3fbb;
+    width: fit-content;
+    transform: rotate(-3deg);
+    margin-left: 20%;  
+}
+
+.black-box-text p{
+    padding: 7px 15px 8px 15px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.purple-box-text p {
+    padding: 7px 15px 8px 15px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.first-paragraph {
+    box-sizing: border-box;
+    font-family: 'Monda', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+    width: 47%;
+    padding: 10px 0;
+    line-height: 1.3;
+}
+span {
+    color: #8e3fbb;
+    font-weight: bold;
+    font-size: 22px;    
+}
+
+.container-2{
+    width: auto;
+    margin: auto;
+    height: 1150px;
+    padding-bottom: 2%;
+    background-image: url("png/Grunge2.png"), url("png/StrokeLine.png");
+    background-size: auto, 29%;
+    background-repeat: no-repeat;
+    background-color: #e3e3e3;
+    background-position-x: 100%, 81%;
+    background-position-y: 25%, 38%;
+}
+
+.top-images {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 250px;
+}
+
+.purple-box-girls {
+    background-color: #ab0dda;
+}
+
+.purple-box-girls img {
+    opacity: 0.5;
+    filter: contrast(200%) brightness(90%);
+}
+
+.purple-box-man {
+    background-color: #ab0dda;
+    width: 529px;
+    height: 874px;
+}
+
+.purple-box-man img {
+    opacity: 0.5;
+}
+
+.col-8 .box{
+    margin-left: 15%;
+    margin-top: 13%;
+}
+
+.container-2 h1{
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;;
+    font-size: 85px;
+    letter-spacing: 3px;
+}
+
+.container-2 h1 span {
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;;
+    font-size: 85px;
+    letter-spacing: 3px;
+    color: #ab0dda;
+}
+
+.reserve-text {
+    display: flex;
+    margin: 0;
+    width: fit-content;
+}
+
+.reserve-text .box {
+    margin: 0;
+}
+
+.col-5 p{
+    font-family: 'Monda', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-align-last: left;
+    padding: 10px 45px 20px 0;
+    margin: 0;
+    line-height: 1.2;  
+}
+
+.col-5 p span {
+    color: #9029c2;
+    font-size: 18px;
+}
+
+.container-2 button {
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 30px;
+    color: #9029c2;
+    border: 4px solid #9029c2;
+    transition-duration: 0.4s;
+}
+
+.container-2 button:hover {
+    background-color: #9029c2;
+    color: #fff;
+}
+
+.concert-images {
+    display: inline-block;
+    margin-left: auto;
+    transform: translateY(-130%);
+
+}
+
+.concert-images img {
+    padding: 10px 0 10px 25px;
+}
+
+.footsy{
+    width: 100%;
+    background-image: url("png/PaperTear2.png"), url("png/Strokefooter.png");
+    background-size: 40%, 13%;
+    background-repeat: no-repeat;
+    background-color: #e3e3e3;
+    background-position-x: 100%, 0;
+    background-position-y: 100%, 100%;
+}
+
+.footsy h1 {
+    font-family: 'Monda', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.footsy ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footsy ul li {
+    color: #232323;
+    font-family: 'Monda', sans-serif;
+    font-size: 22px;
+    padding: 8px 0;
+}
+
+.footsy img {
+    width: 35%;
+    margin-left: 70px;
+    padding: 30px;
+}
+
+.footsy button {
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 60px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: #983bbc;
+    border: 4px solid #983bbc;
+    transition-duration: 0.4s;
+}
+
+.footsy button:hover {
+    background-color: #983bbc;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
